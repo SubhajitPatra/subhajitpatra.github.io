@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Do+Hyeon&family=Mate+SC&display=swap');
+
+body{
+    background-color: #232946;
+    color: #b8c1ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+}
+#name, #description, #bio {
+    color: #fffffe;
+}
+#name{
+     font-family: 'Mate SC', serif;
+     font-size: 80px;
+     font-weight: bold;
+     text-shadow: 0px 5px  5px #b8c1ec;
+     flex: 1;
+     text-align: center;
+}
+.project-github-icon, .working-demo-icon{
+    color: #232946;
+    padding: 5px;
+}
+#description{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 25px;
+    flex: 1;
+    text-align: center;
+}
+#bio{
+    flex: 1;
+    text-align: center;
+}
+#projects{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.project-item{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 400px;
+    
+    padding: 20px;
+    background-color: #eebbc3;
+    color: #232946;
+    border-radius: 10px;
+}
+.project-item-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.project-name{
+    flex: 1;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.project-description{
+    font-size: 16px;
+    flex: 1;
+}
+.project-tags{
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+#social-media-links > *{
+    color: #fffffe;
+
+}

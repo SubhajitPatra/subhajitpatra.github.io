@@ -1,0 +1,36 @@
+Name
+Description
+Image
+bio
+social media links{
+    github profile
+    freecodecamp profile link
+    codepen profile link 
+}
+projects    {
+    project Name
+    project  github link
+    working demo link
+    project Description
+    project screenshots
+    project tags
+}
+technologies{
+    icon
+    technology-name
+}
+contact forms{
+    name input
+    e-mail input
+    feedback-input
+} 
+project data[
+    arcade-ball
+    tic-tac-toe
+    MPA-website
+    Swami Vivekananda
+    Spiderman far from home
+    Dinosaur
+    SPA website
+
+]
